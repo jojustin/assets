@@ -1,11 +1,13 @@
 package com.ibm.demo.appconfig.controller;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;    
+import org.springframework.web.bind.annotation.RequestMethod;  
 import com.ibm.demo.appconfig.service.FeatureFlagService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.security.Principal;

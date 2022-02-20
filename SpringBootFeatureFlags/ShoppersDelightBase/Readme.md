@@ -1,9 +1,9 @@
-# Sample Base Application of Spring Boot using  @ConfigurationProperties
+# Sample Application of Spring Boot using  @ConfigurationProperties
 
 > **DISCLAIMER**: This is a guideline sample application and is used for demonstrative and illustrative purposes only. This is not a production-ready code.
 
 ## Contents
-- [Sample Base Application of Spring Boot using  @ConfigurationProperties](#sample-base-application-of-spring-boot-using--configurationproperties)
+- [Sample Application of Spring Boot using  @ConfigurationProperties](#sample-application-of-spring-boot-using--configurationproperties)
   - [Contents](#contents)
   - [Application Details](#application-details)
   - [Run the sample app](#run-the-sample-app)

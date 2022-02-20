@@ -1,7 +1,7 @@
  <div class="col-lg-3">
         <h1 class="my-4">Shopper's Delight</h1>
         <div class="list-group">
-          <c:if test = "${exclusiveOffers == true}">
+          <c:if test="${exclusiveOffers == true }">
             <a href="#exclusive" class="list-group-item" data-toggle="tab">Exclusively for you <img src="/images/offer_icon.png"> </a>
           </c:if>
           <a href="#C1" class="list-group-item" data-toggle="tab">Category 1</a>

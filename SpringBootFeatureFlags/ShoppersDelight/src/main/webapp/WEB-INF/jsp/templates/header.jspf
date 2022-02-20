@@ -38,6 +38,9 @@
           </c:if>
           <c:if test="${pageContext.request.userPrincipal.name != null && indexPage != null }">
             <li class="nav-item">
+              <font class="nav-link">Logged in as <c:out value="${pageContext.request.userPrincipal.name}"></c:out></font>
+            </li>
+            <li class="nav-item">
               <a href="<c:url value="/logout" />" class="btn btn-primary">Logout</a>
             </li>
           </c:if>

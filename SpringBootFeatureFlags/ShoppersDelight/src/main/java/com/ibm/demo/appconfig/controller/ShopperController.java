@@ -1,6 +1,5 @@
 package com.ibm.demo.appconfig.controller;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -3,8 +3,10 @@ package com.ibm.demo.appconfig.properties;
 import org.springframework.stereotype.Component;
 import com.ibm.demo.appconfig.service.FeatureFlagService;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Primary;
 
 @Component
+@Primary
 @ConfigurationProperties(prefix = "features")
 public class PropertiesBackedFeatureFlagService implements FeatureFlagService {
     

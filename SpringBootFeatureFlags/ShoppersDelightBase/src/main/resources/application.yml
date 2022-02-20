@@ -1,0 +1,19 @@
+spring: 
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+logging:
+    level:
+        com:
+            ibm:
+                demo: trace
+        org:
+            springframework:
+                web: trace
+features:
+  exclusiveOffers: true
+  flashSale: true
+  bluetoothEarPhones: true
+
+ 

@@ -24,7 +24,7 @@
 - Navigate to Service Credentials section and generate a new set of credentials. Note down the `region`, `guid` and `apikey`. These credentials are required in the next steps.
 - From your terminal, inside the source code execute the `demo.sh` script by running below command
     ```bash
-    $ ./demo.sh
+    $ ./appconfigurationdemo.sh
     ```
 - Script execution takes time. Script is executed successfully only when you see the log `---Demo script complete---` at the end in your terminal.
 - This script will create the collections, feature flags & segments in the instance which are required for the web app

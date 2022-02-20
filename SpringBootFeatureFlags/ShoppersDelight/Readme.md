@@ -22,7 +22,7 @@
     - You can install it from [here](https://stedolan.github.io/jq/download/)
 - Go to dashboard of your App Configuration instance in IBM Cloud UI.
 - Navigate to Service Credentials section and generate a new set of credentials. Note down the `region`, `guid` and `apikey`. These credentials are required in the next steps.
-- From your terminal, inside the source code execute the `demo.sh` script by running below command
+- From your terminal, inside the source code execute the `appconfigurationdemo.sh` script by running below command
     ```bash
     $ ./appconfigurationdemo.sh
     ```

@@ -1,0 +1,48 @@
+<div class="tab-pane" id="exclusive">
+            <div class="jumbotron">
+              <h1 class="display-4">Don't miss!</h1>
+              <p class="lead">Exclusively For You. Promos. Ongoing Offer. Cover image for post. Bonus Points, Upgrades, Discounts or anything else</p>
+              <hr class="my-4">
+              <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </p>
+            </div>
+            <div class="row">
+              <div id="ipadpro" class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="/images/exclusive_offers_1.jpg" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Item One</a>
+                    </h4>
+                    <h5>$ 399</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+                      Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="card-footer text-right">
+                    <small class="text-muted" style="float: left;">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div id="casual_shoe" class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="/images/exclusive_offers_2.png" alt=""></a>
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      <a href="#">Item Two</a>
+                    </h4>
+                    <h5>$ 500</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+                    </p>
+                  </div>
+                  <div class="card-footer text-right">
+                    <small class="text-muted" style="float: left;">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                    <a href="#" class="btn btn-primary btn-sm">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>

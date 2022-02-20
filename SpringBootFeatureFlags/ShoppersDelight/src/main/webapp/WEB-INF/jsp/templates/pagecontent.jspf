@@ -1,0 +1,15 @@
+<!-- Page Content -->
+  <div class="container" style="min-height: calc(100vh - 70px);">
+    <div class="row">
+      <%@ include file="navigation.jspf" %>
+      <!-- /.col-lg-3 -->
+      <div class="col-lg-9">
+        <div class="tab-content my-4">
+          <%@ include file="exclusiveoffers.jspf" %>
+          <%@ include file="offers.jspf" %>
+          <%@ include file="category2.jspf" %>
+          <%@ include file="more.jspf" %>
+        </div>
+      </div>
+    </div>
+  </div>

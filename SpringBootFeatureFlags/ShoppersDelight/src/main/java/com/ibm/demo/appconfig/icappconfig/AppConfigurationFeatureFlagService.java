@@ -66,7 +66,7 @@ public class AppConfigurationFeatureFlagService implements FeatureFlagService {
 
     private String createEntity(final String user, final Feature feature) {
         JSONObject entityAttributes = new JSONObject();
-        if(!user.isEmpty()) {
+        if(user != null & !user.isEmpty()) {
             entityAttributes.put("email", user);
             return String.valueOf(feature.getCurrentValue(user, entityAttributes));
         }
